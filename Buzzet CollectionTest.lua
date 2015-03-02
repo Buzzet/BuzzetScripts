@@ -21,7 +21,7 @@ local UPDATE_URL = "https://"..UPDATE_HOST..UPDATE_PATH
 
 function OnLoad()
 	
-	PrintChat ("Buzzet's Collection 1.2 (1.03.15) loaded")
+	PrintChat ("Buzzet's Collection 1.7 (1.03.15) loaded")
 	
 	
 	--Menu
