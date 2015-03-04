@@ -6,6 +6,7 @@ Changelog
 
 -V1.1  Uses only 1 Potion at the time
 -V1.1.1 Now on ScriptStatus
+-V1.1.2 Some Text Corrections
 
 --]]
 
@@ -13,7 +14,7 @@ assert(load(Base64Decode("G0x1YVIAAQQEBAgAGZMNChoKAAAAAAAAAAAAAQIKAAAABgBAAEFAAA
 
 function OnLoad()
 	
-	PrintChat ("Buzzet's Collection 1.1.1 (1.03.15) loaded")
+	PrintChat ("Buzzet's Collection 1.1.2 (04.03.15) loaded")
 	
 	
 	--Menu
@@ -27,8 +28,8 @@ function OnLoad()
 	PotConfig:addParam("healpot", "Health Potion Use", SCRIPT_PARAM_ONOFF, true)
 	PotConfig:addParam("hphealpot", "HP for Health Potion (%)", SCRIPT_PARAM_SLICE, 50, 0, 100, 0)
 	ManaConfig = scriptConfig("AutoMana", "apot")
-	ManaConfig:addParam("manapot", "Health Potion Use", SCRIPT_PARAM_ONOFF, true)
-	ManaConfig:addParam("mmanapot", "HP for Health Potion (%)", SCRIPT_PARAM_SLICE, 50, 0, 100, 0)
+	ManaConfig:addParam("manapot", "Mana Potion Use", SCRIPT_PARAM_ONOFF, true)
+	ManaConfig:addParam("mmanapot", "HP for Mana Potion (%)", SCRIPT_PARAM_SLICE, 50, 0, 100, 0)
 	
 	ts = TargetSelector(TARGET_MOST_AD, 650)
 	
