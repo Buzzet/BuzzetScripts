@@ -6,7 +6,8 @@ Changelog
 
 -V1.1  Uses only 1 Potion at the time
 -V1.1.1 Now on ScriptStatus
--V1.1.2 Some Text Corrections
+-v1.2 AutoMana added
+-V1.2.1 Some Text Corrections
 
 --]]
 
@@ -14,7 +15,7 @@ assert(load(Base64Decode("G0x1YVIAAQQEBAgAGZMNChoKAAAAAAAAAAAAAQIKAAAABgBAAEFAAA
 
 function OnLoad()
 	
-	PrintChat ("Buzzet's Collection 1.1.2 (04.03.15) loaded")
+	PrintChat ("Buzzet's Collection 1.2.1 (04.03.15) loaded")
 	
 	
 	--Menu
